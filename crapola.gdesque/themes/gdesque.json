@@ -1,0 +1,160 @@
+{
+  "name": "GDesque",
+  "type": "dark",
+  "colors": {
+    "activityBar.background":"#333b4f",
+    "activityBar.foreground":"#fff",
+
+    "sideBar.background": "#1b202d",
+    "sideBar.border":"#333b4f",
+    "sideBarSectionHeader.background": "#262c3b",
+    "sideBarSectionHeader.border":"#000",
+
+    "statusBar.background": "#171c29",
+    "statusBar.foreground": "#9da5b4",
+    "statusBarItem.hoverBackground": "#ff2431",
+    "statusBar.noFolderBackground": "#21252B",
+    "statusBar.debuggingBackground": "#21252B",
+
+    "list.activeSelectionBackground":"#272c39",
+    "list.inactiveSelectionBackground":"#232835",
+    "list.focusBackground":"#232835",
+    "list.hoverBackground":"#1f2431",
+
+    "editor.background": "#1f2431",
+    "editorLineNumber.foreground":"#A1C2AA80",
+    "editorLineNumber.activeForeground":"#A1C2AA",
+    "editorIndentGuide.background":"#262c3b",
+    "editorIndentGuide.activeBackground":"#333b4f",
+    "editorRuler.foreground":"#333b4f",
+    "editor.selectionBackground":"#59699c74",
+    "editor.inactiveSelectionBackground":"#59699c37",
+    "editor.lineHighlightBackground":"#303340",
+    "editor.lineHighlightBorder":"#0008",
+    "editorCursor.foreground":"#fff",
+    "editor.selectionHighlightBackground_":"#fff2",
+    "editor.selectionHighlightBorder_":"#fdb3",
+
+    "titleBar.activeBackground":"#1b202d",
+    "titleBar.inactiveBackground":"#171c29",
+
+    "tab.inactiveBackground":"#232835",
+    "editorGroupHeader.noTabsBackground":"#ff0000",
+    "editorGroupHeader.tabsBackground":"#171c29"
+  },
+  "tokenColors": [
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "keyword.operator.constructor",
+        "constant.language",
+        "support.function.builtin"
+      ],
+      "settings": {
+        "foreground": "#ff7084"
+      }
+    },
+    {
+      "name":"Plain text, variables",
+      "scope":["variable"],
+      "settings": {
+        "foreground": "#ccced3"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "string.comment"
+      ],
+      "settings": {
+        "foreground": "#cbccd280"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string",
+        "string.template"
+      ],
+      "settings": {
+        "foreground": "#ffeba0"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#a0ffe0"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": ["keyword.operator","punctuation.section",
+        "punctuation.definition.parameters",
+        "punctuation.definition.arguments"
+      ],
+      "settings": {
+        "foreground": "#aac8ff"
+      }
+    },
+    {
+      "name": "Type Base",
+      "scope": ["storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#42ffc1"
+      }
+    },
+    {
+      "name": "Type Engine namespace",
+      "scope": ["entity.name.scope-resolution","punctuation.separator.namespace.access"],
+      "settings": {
+        "foreground": "#8dffda"
+      }
+    },
+    {
+      "name": "Type User",
+      "scope": ["support.type","entity.name.type.class"],
+      "settings": {
+        "foreground": "#c6ffec"
+      }
+    },
+    {
+      "name": "Member variable",
+      "scope": ["variable.other.property","punctuation.separator.dot-access"],
+      "settings": {
+        "foreground": "#bbe0ff"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": [
+        "entity.name.function.call",
+        "entity.name.function.member",
+        "meta.function-call.generic"
+      ],
+      "settings": {
+        "foreground": "#56b2ff"
+      }
+    },
+    {
+      "name": "Function declaration",
+      "scope": [
+        "entity.name.function.definition",
+        "entity.name.function",
+        "support.function.magic"
+      ],
+      "settings": {
+        "foreground": "#5ecde4"
+      }
+    },
+    {
+      "name":"Function parameter",
+      "scope":["variable.parameter"],
+      "settings":{
+        "fontStyle":"italics"
+      }
+    }
+  ]
+}

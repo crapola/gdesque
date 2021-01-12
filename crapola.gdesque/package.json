@@ -1,0 +1,22 @@
+{
+	"name": "GDesque",
+	"displayName": "GDesque Dark Theme",
+	"description": "Inspired by the Godot editor color scheme.",
+	"version": "0.0.1",
+	"publisher": "crapola",
+	"engines": {
+		"vscode": "^1.52.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "GDesque",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gdesque.json"
+			}
+		]
+	},
+}
